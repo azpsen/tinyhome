@@ -53,8 +53,8 @@ jobs:
         uses: docker/metadata-action@v5
         with:
           images: |
-            baywolfstudios/tinyhome
-            ghcr.io/baywolf-studios/tinyhome
+            azpsen/tinyhome
+            ghcr.io/azpsen/tinyhome
           tags: |
             type=schedule
             type=ref,event=branch
