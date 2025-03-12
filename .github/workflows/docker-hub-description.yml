@@ -21,6 +21,6 @@ jobs:
         with:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
-          repository: baywolfstudios/tinyhome
+          repository: azpsen/tinyhome
           readme-filepath: ./README.md
           short-description: ${{ github.event.repository.description }}
